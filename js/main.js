@@ -2,6 +2,7 @@ var swiper = new Swiper(".values-list.swiper", {
     slidesPerView: 3,
     spaceBetween: 20,
     allowTouchMove: true,
+    freeMode: true,
 
     navigation: {
         nextEl: '.swiper-button-next',
@@ -11,10 +12,15 @@ var swiper = new Swiper(".values-list.swiper", {
         // mobile + tablet - 320-990
         320: {
             slidesPerView: 1,
-            spaceBetween: 0
+        },
+        991: {
+            slidesPerView: 2
         },
         // desktop >= 991
-        991: {
+        1024: {
+            slidesPerView: 3
+        },
+        1440:{
             slidesPerView: 3
         }
     }
@@ -34,9 +40,15 @@ var swiper2 = new Swiper(".story-list.swiper", {
             slidesPerView: 1,
             spaceBetween: 0
         },
+        600: {
+            slidesPerView: 2
+        },
         // desktop >= 991
         991: {
-            slidesPerView: 3
+            slidesPerView: 2
+        },
+        1440:{
+            slidesPerView: 4
         }
     }
 });
@@ -53,8 +65,14 @@ var swiper3 = new Swiper(".founders-list.swiper", {
             slidesPerView: 1,
             spaceBetween: 0
         },
+        600: {
+            slidesPerView: 2
+        },
         // desktop >= 991
         991: {
+            slidesPerView: 3
+        },
+        1440:{
             slidesPerView: 4
         }
     }

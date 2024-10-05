@@ -20,7 +20,7 @@
     background: #FFFFFF;
 }
 .bvi-btn {
-    background: url('../img/bvi-red.svg');
+    background: url('../img/bvi-red.svg') no-repeat;
     background-size: 100%;
     width: 52px;
     height: 41px;
@@ -103,13 +103,14 @@
     right: 0;
     bottom: 0;
 }
+
 .card{
     background: #FAFAFA;
     border-radius: 30px;
     border: none;
     height: 280px;
-    max-width: 425px;
     width: 100%;
+    max-width: 425px;
 }
 .about-text{
     color: #000000;
@@ -148,6 +149,7 @@
     color: #D6111F;
 
 }
+
 .about-item img{
     margin-top: 32px;
 }
@@ -586,6 +588,8 @@ footer{
 .carousel-item img{
     height: 1080px;
     object-fit: cover;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
 }
 .footer-bottom{
     margin-top: 67px;

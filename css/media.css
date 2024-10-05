@@ -1,0 +1,297 @@
+@media screen and (max-width: 1890px){
+    .about-item{
+        max-width: calc(100%/4 - 20px) ;
+    }
+    .card{
+        max-width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1600px){
+    .about-list{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .about-item img{
+        max-width: 100%;
+    }
+    .about-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 1440px){
+    .carousel-item img{
+        max-height: 600px;
+        height: 100%;
+    }
+    .navbar-nav{
+        padding-left: 0;
+    }
+    .about-list{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .story-list{
+        max-width: calc(100% - 40px);
+    }
+    .counter-fw{
+        max-width: calc(100% - 40px);
+    }
+    .counter-sm{
+        max-width: calc(100%/2 - 40px);
+    }
+}
+@media screen and (max-width: 1200px){
+    .navbar-nav{
+        gap: 20px;
+    }
+    .about-list{
+        justify-content: center!important;
+        gap: 20px;
+    }
+
+    .about-item {
+        max-width: calc(100% / 3 - 20px);
+        width: 100%;
+    }
+    .video{
+        padding-top: 90px;
+    }
+    .video-block{
+        flex-wrap: wrap;
+    }
+    .video-about, .video-command{
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        margin: 30px auto 0;
+    }
+    .video-overlay img{
+        max-width: 77%;
+    }
+    .video-overlay{
+        padding-top: 68px;
+    }
+    .video-block{
+        margin-bottom: 90px;
+    }
+
+    .values-list{
+        max-width:calc(100% - 40px);
+    }
+    .swiper-button-next{
+        right: 42%;
+    }
+    .swiper-button-prev{
+        left: 42%;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+    .nav-link i{
+        font-size: 16px;
+    }
+    .values{
+        margin-bottom: 90px;
+    }
+    .story-list{
+        margin-bottom: 90px;
+    }
+    .story-list .swiper-button-next {
+        right: 42%;
+    }
+    .story-list .swiper-button-prev {
+        left: 42%;
+    }
+    .features-list{
+        margin-bottom: 90px;
+    }
+    .counter{
+        font-size: 80px;
+        line-height: 90px;
+        margin-bottom: 34px;
+        padding-top: 80px;
+    }
+    .counter-text{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .counter-sm{
+        height: 350px;
+    }
+    .features-counter{
+        margin-bottom: 90px;
+    }
+    .vacancies-block h1:after{
+        right: -50px;
+    }
+    .vacancies{
+        margin-bottom: 90px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .features-item{
+        max-width: calc(100%/2 - 20px);
+    }
+    .founder{
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 1024px){
+    .footer-col-2 p{
+        max-width: 100%;
+    }
+    .footer-col-3{
+        max-width: 50%;
+    }
+    .footer-col-3 .footer-title,  .footer-col-4 .footer-title{
+        margin-top: 30px;
+    }
+    .footer-logo img{
+        max-width: 100%;
+    }
+    .section-title{
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .video-view{
+        background-size: contain;
+    }
+    .video-overlay {
+        padding-top: 34px;
+    }
+    .value-title{
+        font-size: 20px;
+    }
+    .vacancies-text-5{
+        right: 60px;
+    }
+    .vacancies-text-4{
+        right: 20px;
+    }
+    .vacancies-text-3{
+        left: 100px;
+    }
+    .vacancies-text-2{
+        left: 50px;
+    }
+    .story-text{
+        font-size: 20px;
+    }
+    .section-title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .footer-bottom h4{
+        padding-left: 0;
+    }
+    .socials{
+        margin-bottom: 30px;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+}
+@media screen and (max-width: 990px){
+    .vacancies-block h1{
+        font-size: 40px;
+        line-height: 35px;
+    }
+    .vacancies-block h1:after{
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .vacancies-text-3{
+        bottom: 50px;
+    }
+    .vacancies-text{
+        font-size: 16px;
+    }
+    .carousel-item img{
+        height: 480px;
+    }
+    .carousel .btn-white{
+        height: 60px;
+        font-size: 20px;
+    }
+    .carousel-caption{
+        bottom: 30px;
+    }
+    .navbar-light .navbar-toggler{
+        margin-top: 25px;
+        border-color: #D6111F;
+        outline: none;
+
+    }
+    .navbar-light .navbar-toggler-icon{
+        background: url('../img/mobile-menu.svg') no-repeat center ;
+    }
+    .navbar{
+        background: #ffffff5c;
+    }
+    header .navbar .navbar-brand img {
+        filter: none!important;
+        height: 88px;
+    }
+    .navbar .nav-link {
+        color: #D6111F !important;
+    }
+    .nav-item{
+        text-align: center;
+    }
+    .navbar-nav{
+        padding-top: 0;
+    }
+    .bvi-btn{
+        display: flex;
+        margin: 20px auto 0;
+    }
+    nav .btn-red{
+        margin: 20px auto;
+        height: 48px;
+        font-size: 16px;
+        width: 200px;
+    }
+    .navbar .bvi-btn{
+        visibility: visible;
+    }
+    .btn-arrow{
+        width: 33px;
+        height: 33px;
+    }
+    .btn-arrow:before{
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+    }
+    .about-item{
+        max-width: calc(100% / 2 - 20px);
+    }
+    .counter-title{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .counter-sm{
+        max-width: calc(100% - 40px);
+        margin-right: 0!important;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .features-counter{
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 600px){
+
+}
+@media screen and (max-width: 480px){
+
+}
+
