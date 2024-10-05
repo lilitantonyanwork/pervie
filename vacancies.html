@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<header>
+  <nav  class="navbar scroll navbar-expand-lg navbar-light p-0">
+    <div class="container-fluid justify-content-between align-items-start">
+      <a class="navbar-brand p-0 m-0" href="#"><img src="img/logo-red.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav m-lg-auto my-lg-0  ms-auto" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link text-white p-0 text-uppercase" aria-current="page" href="#">О нас <i class="bi bi-arrow-right-short"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white p-0 text-uppercase" href="#">преимущества <i class="bi bi-arrow-right-short"></i></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white p-0 text-uppercase" href="#" >
+              учредители <i class="bi bi-arrow-right-short"></i>
+            </a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white p-0 text-uppercase" href="#" >контакты <i class="bi bi-arrow-right-short"></i></a>
+          </li>
+        </ul>
+
+        <button class="btn btn-transparent bvi-btn"></button>
+        <a href="#" class="btn btn-red text-white" >все вакансии <span class="btn-arrow"></span> </a>
+
+      </div>
+    </div>
+  </nav>
+
+
+</header>
+<main>
+ <section class="vacancy-page">
+   <div class="vacancy-search">
+     <div class="container-fluid">
+       <div class="row">
+         <div class="col-12">
+           <h1 class="page-title"> Работа в Движении Первых</h1>
+         </div>
+       </div>
+       <form class="row gy-2 gx-3 align-items-center">
+         <div class="col-md-6">
+           <input type="text" class="form-control"  placeholder="Введите название или описание вакансии">
+           <select class="form-select" aria-label="Выбор из списка региона">
+             <option selected>Выбор из списка региона</option>
+             <option value="1">One</option>
+             <option value="2">Two</option>
+             <option value="3">Three</option>
+           </select>
+         </div>
+
+         <div class="col-md-4">
+           <label class="" >Сортировка вакансий</label>
+           <select class="form-select" >
+             <option selected>По дате (самые новые)</option>
+             <option value="1">One</option>
+             <option value="2">Two</option>
+             <option value="3">Three</option>
+           </select>
+         </div>
+
+         <div class="col-auto">
+           <button type="submit" class="btn btn-red text-white">Искать</button>
+         </div>
+       </form>
+     </div>
+   </div>
+   <div class="vacancy-list">
+     <div class="container-fluid">
+       <div class="row">
+         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+           <ol class="breadcrumb">
+             <li class="breadcrumb-item"><a href="#">Home</a></li>
+             <li class="breadcrumb-item active" aria-current="page">Library</li>
+           </ol>
+         </nav>
+         <div class="vacancies-list d-flex flex-wrap">
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <div class="vacancy-item">
+             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
+             <p class="vacancy-company">Движение Первых</p>
+             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
+             <ul class="vacancy-more">
+               <li>Полная занятость</li>
+               <li>Москва</li>
+               <li>Опыт 3-6 лет</li>
+             </ul>
+             <div class="vacancy-actions">
+               <a href="" class="btn btn-more">О вакансии</a>
+               <a href="" class="btn btn-form">Откликнуться</a>
+             </div>
+             <div class="vacancy-date">Вчера</div>
+
+           </div>
+           <nav aria-label="Page navigation example">
+             <ul class="pagination justify-content-center">
+               <li class="page-item disabled">
+                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+               </li>
+               <li class="page-item"><a class="page-link" href="#">1</a></li>
+               <li class="page-item"><a class="page-link" href="#">2</a></li>
+               <li class="page-item"><a class="page-link" href="#">3</a></li>
+               <li class="page-item">
+                 <a class="page-link" href="#">Next</a>
+               </li>
+             </ul>
+           </nav>
+
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+</main>
+<footer>
+  <div class="footer-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 footer-col-1">
+          <div class="footer-logo">
+            <a href=""><img src="img/logo-footer.svg" alt="logo"></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 footer-col-2">
+          <h4 class="footer-title text-uppercase">телефон</h4>
+          <p>Для звонков по России:
+            <a href="tel:+7(800)-333-63-11">+7(800)-333-63-11</a></p>
+          <p>Для звонков по Москве
+            и Московской области:
+            <a href="tel:+ 7(495)-565-30-10">+ 7(495)-565-30-10</a></p>
+          <h4 class="footer-title text-uppercase">почта</h4>
+          <p>Официальная почта организации:
+            <a href="mailto:info@pervye.ru">info@pervye.ru</a></p>
+          <p>Для обращений по общим вопросам работы "Движения Первых":
+            <a href="mailto:zabota@pervye.ru">zabota@pervye.ru</a></p>
+          <h4 class="footer-title text-uppercase">адрес</h4>
+          <p>109028, г. Москва, ул. Земляной Вал, д. 50А, стр. 2 (м. «Курская»)</p>
+        </div>
+        <div class="col-lg-6 col-md-6 footer-col-3">
+          <form action="">
+            <h2>Не нашли подходящую вакансию?</h2>
+            <p>Направляйте своё резюме и мы предложим лучшее решение!</p>
+            <h4 class="form-subtitle">Расскажите о себе</h4>
+            <div class="form-row d-flex">
+              <div class="d-flex flex-column">
+                <label for="">Имя</label>
+                <input type="text" placeholder="Введите ваше имя">
+              </div>
+              <div class="d-flex flex-column">
+                <label for="">Фамилия</label>
+                <input type="text" placeholder="Введите вашу фамилию">
+              </div>
+            </div>
+            <div class="form-row d-flex">
+              <div class="d-flex flex-column">
+                <label for="">Адрес электронной почты</label>
+                <input type="email" placeholder="Введите ваш адрес электронной почты">
+              </div>
+            </div>
+            <div class="form-row d-flex">
+              <div class="d-flex flex-column">
+                <label for="">Телефон</label>
+                <input type="tel" placeholder="+7">
+              </div>
+            </div>
+            <h4 class="form-subtitle">Выберите регион</h4>
+            <div class="form-row">
+              <select class="form-select" aria-label="Поиск региона">
+                <option selected>Поиск региона</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <h4 class="form-subtitle">Выберите резюме для отправки</h4>
+            <div class="form-row">
+              <label for="file">Перетащите файлы сюда</label>
+              <input type="file" id="file">
+            </div>
+            <p>Нет резюме? Вы можете <a href="">создать резюме здесь.</a></p>
+            <a href="" class="btn btn-blue">Отправить резюме</a>
+            <a href="" class="btn btn-gray">Заполнить краткую форму</a>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Нажимая на кнопку “Отправить резюме”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой Конфиденциальности.
+              </label>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <h4>Cоциальные сети</h4>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="socials d-flex">
+            <a href=""><img src="img/vk.svg" alt=""></a>
+            <a href=""><img src="img/ok.svg" alt=""></a>
+            <a href=""><img src="img/tg.png" alt=""></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 d-flex flex-column">
+          <a href="" class="footer-link">пользовательское соглашение</a>
+          <a href="" class="footer-link">Политика конфиденциальности</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <button class="bvi-btn"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
