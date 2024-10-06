@@ -52,7 +52,27 @@
         padding-left: 40px;
         padding-right: 40px;
     }
+    .vacancy-info li{
+        padding-right: 40px;
+    }
 
+    .vacancy-info li{
+        margin-right: 40px;
+    }
+    .single-text{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .vacancy-info li{
+        font-size: 20px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+    .vacancy-info .btn-blue{
+        height: 64px;
+        font-size: 25px ;
+        margin-right: 40px;
+    }
 }
 @media screen and (max-width: 1200px){
     .navbar-nav{
@@ -225,7 +245,23 @@
     .vacancy-item{
         max-width:calc(100% - 60px);
     }
-
+    .vacancy-info{
+        max-width: calc(100% - 40px);
+    }
+    .breadcrumb{
+        padding-left: 20px;
+    }
+    .vacancy-info li {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .single-text{
+        padding-left: 20px;
+        max-width: 100%;
+    }
+    .vacancy-info h4{
+        padding-left: 20px;
+    }
 }
 @media screen and (max-width: 990px){
     .vacancies-block h1{
@@ -351,8 +387,34 @@
     .carousel-caption{
         display: block!important;
     }
+    .vacancy-info .btn-blue{
+        margin-right: 0;
+    }
 }
 @media screen and (max-width: 600px){
+    .vacancy-title{
+        font-size: 26px;
+    }
+    .vacancy-info li{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .vacancy-info li:last-child {
+        margin-bottom: 30px;
+    }
+    .vacancy-info{
+        max-width: 100%;
+    }
+    .single-info{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .vacancy-info .single-info .btn-blue{
+        max-width: 100%;
+    }
+    .vacancy-info .btn-blue{
+        max-width: 100%;
+    }
     .carousel-control-prev-icon,  .carousel-control-next-icon{
         width: 43px;
         height: 43px;
