@@ -664,7 +664,7 @@
     }
     .vacancies-block h1:after {
         height: 100px;
-        width: 98px;
+        width: 50px;
         right: 0;
     }
     .vacancies{
@@ -679,11 +679,20 @@
         height: 200px;
     }
     .counter-title{
-        font-size: 24px;
+        font-size: 20px;
         line-height: 30px;
+        padding: 20px;
+        margin-bottom: 0;
     }
     .video-block{
         margin-bottom: 30px;
+    }
+    .features-counter{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .features-counter .row div:last-child{
+        margin-bottom: 0;
     }
 }
 @media screen and (max-width: 480px){

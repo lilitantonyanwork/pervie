@@ -120,6 +120,7 @@
     font-weight: 300;
     padding-left: 27px;
     padding-right: 27px;
+    font-family: Pervye, sans-serif;
 }
 .about-list{
     padding-left: 81px;
@@ -136,6 +137,7 @@
     border-radius: 30px;
     padding: 21px 56px 15px;
     margin: 66px auto 42px;
+    font-family: Pervye_Extended,sans-serif;
 }
 .about-title{
     color: #D6111F;
@@ -147,7 +149,7 @@
     font-weight: 700;
     text-transform: uppercase;
     color: #D6111F;
-
+    font-family: Pervye_Extended, sans-serif;
 }
 
 .about-item img{
@@ -186,6 +188,7 @@
     color: #000;
     font-weight: 300;
     margin-bottom: 10px;
+    font-family: Pervye, sans-serif;
 }
 .video-about p,
 .video-command p{
@@ -193,6 +196,8 @@
     line-height: 18px;
     font-weight: 300;
     color: #000;
+    font-family: Pervye, sans-serif;
+
 }
 .video-view{
     max-width: 1229px;
@@ -280,6 +285,8 @@
     font-weight: 300;
     min-width: 260px;
     white-space: nowrap;
+    font-family: Pervye, sans-serif;
+
 }
 .swiper-button-prev{
     top: auto;
@@ -361,6 +368,7 @@
     font-weight: 700;
     position: relative;
     text-align: center;
+    font-family: Pervye_Extended, sans-serif;
 }
 .user-status{
     font-size: 23px;
@@ -371,6 +379,8 @@
     padding-left: 50px;
     padding-right: 50px;
     margin-bottom: 23px;
+    font-family: Pervye_Extended, sans-serif;
+
 }
 .story-text{
     max-width: 412px;
@@ -378,6 +388,7 @@
     font-weight: 300;
     font-size: 25px;
     line-height: 30px;
+    font-family: Pervye, sans-serif;
 }
 .features-list{
     max-width: 1585px;
@@ -404,6 +415,7 @@
     font-size: 50px;
     line-height: 100px;
     font-weight: 300;
+    font-family: Pervye, sans-serif;
 }
 .features-text{
     font-size: 40px;
@@ -411,6 +423,7 @@
     font-weight: 300;
     color: #fff;
     margin-top: 122px;
+    font-family: Pervye, sans-serif;
 }
 .features-item:nth-child(3):before{
     content: "";
@@ -446,6 +459,7 @@
     font-weight: 700;
     padding: 37px;
     text-align: center;
+    font-family: Pervye_Extended, sans-serif;
 }
 .counter-sm{
     max-width: 784px;
@@ -462,6 +476,8 @@
     font-weight: 700;
     padding-top: 118px;
     margin-bottom: 64px;
+    font-family: Pervye_Extended, sans-serif;
+
 }
 .counter-text{
     background: #FAFAFA;
@@ -473,6 +489,8 @@
     line-height: 40px;
     font-weight: 300;
     margin: 0 auto;
+    font-family: Pervye, sans-serif;
+
 }
 .counter-more{
     width: 63px;
@@ -508,6 +526,7 @@
     line-height: 55px;
     font-weight: 600;
     margin-bottom: 35px;
+    font-family: Pervye_Extended, sans-serif;
 }
 .vacancies-block h1:after{
     content: '';
@@ -515,8 +534,8 @@
     width: 198px;
     height: 310px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: -20px;
 }
 .vacancies-text{
     color: #fff;
