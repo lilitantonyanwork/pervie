@@ -40,12 +40,14 @@ var swiper2 = new Swiper(".story-list.swiper", {
             slidesPerView: 1,
             spaceBetween: 0
         },
-        600: {
-            slidesPerView: 2
+        700: {
+            slidesPerView: 2,
+            spaceBetween: 20
         },
         // desktop >= 991
         991: {
-            slidesPerView: 2
+            slidesPerView: 2,
+            spaceBetween: 20
         },
         1440:{
             slidesPerView: 4
