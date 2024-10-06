@@ -1148,11 +1148,12 @@ footer{
 .single-info .vacancy-title{
     max-width: 1247px;
 }
-.single-info .btn-blue{
+.vacancy-info .single-info .btn-blue{
     max-width: 323px;
     height: 61px;
     font-size: 25px;
     line-height: 30px;
+    margin-bottom: 0;
 }
 .single-text{
     font-size:25px;
@@ -1169,4 +1170,26 @@ footer{
     font-weight: 700;
     font-family: Pervye_Extended,sans-serif;
     color: #000;
+    padding-left: 52px;
+}
+.vacancy-info li{
+    font-size:25px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: Pervye,sans-serif;
+    color: #000;
+    margin-left: 52px;
+    margin-top: 35px;
+}
+.vacancy-info li:last-child{
+    margin-bottom: 71px;
+}
+.vacancy-info .btn-blue{
+    max-width: 518px;
+    width: 100%;
+    height: 99px;
+    margin-bottom: 71px;
+    margin-right: 73px;
+    font-size: 35px;
+    line-height: 42px;
 }
