@@ -589,6 +589,7 @@ footer{
     line-height: 50px;
     font-weight: 600;
     margin-bottom: 5px;
+    font-family: Inter, sans-serif;
 }
 .footer-top p, .footer-top p a{
    color: #ffffff;
@@ -1260,4 +1261,7 @@ footer .bvi-btn{
     border: none;
     margin: 0 64px 0 0;
     height: 52px;
+}
+.form-text a{
+    color: #000;
 }

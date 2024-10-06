@@ -394,6 +394,26 @@
     .footer-link{
         font-size: 18px ;
     }
+    .page-title{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .vacancy-search{
+        padding: 20px;
+    }
+    .breadcrumb-nav{
+        flex-direction: column;
+        align-items: flex-start!important;
+    }
+    .breadcrumb{
+        padding-left: 0;
+    }
+    .vacancy-item{
+        margin-bottom: 30px;
+    }
+    .pagination{
+        margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 768px){
     .swiper-button-next , .story-list  .swiper-button-next {
@@ -505,6 +525,31 @@
     }
 }
 @media screen and (max-width: 600px){
+    .vacancy-search .btn-red{
+        width: 100%;
+        max-width: 100%;
+    }
+    .vacancy-actions{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start!important;
+    }
+    .vacancy-item{
+        max-width: 100%;
+    }
+    .vacancy-more{
+        flex-wrap: wrap;
+    }
+    .vacancies-list {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .vacancy-date{
+        font-size: 20px;
+    }
+    .search-result{
+        font-size: 18px;
+    }
     .vacancy-form{
         padding-left: 20px;
         padding-right: 20px;
@@ -515,6 +560,10 @@
     .custom-file-button{
         text-align: center;
     }
+    .btn-more{
+        margin-right: 0;
+    }
+
 
     .vacancy-form input, .vacancy-form select, .choose-file{
         max-width: 100%;
@@ -720,6 +769,28 @@
     }
     .swiper-button-next, .story-list .swiper-button-next{
         right: 20%;
+    }
+    .footer-logo img{
+        max-width: 30%;
+        width: 100%;
+    }
+    .features-text{
+        font-size: 24px ;
+        padding-right: 20px;
+    }
+    .story-text{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .user-status{
+        font-size: 18px;
+    }
+    .user-name{
+        font-size: 20px;
+        white-space: wrap;
+        width: 100%;
+        max-width: unset;
+        min-width: 100%;
     }
 }
 
