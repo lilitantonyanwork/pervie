@@ -67,7 +67,7 @@
             <p class="vacancy-company">Движение Первых</p>
             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
             <p class="vacancy-more">Москва</p>
-            <a href="" class="btn btn-blue">Откликнуться</a>
+            <a href="" class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#reply" type="button">Откликнуться</a>
           </div>
           <div class="col-lg-7 col-md-12">
             <p class="single-text">
@@ -113,7 +113,7 @@
             </ul>
             </div>
           <div class="  col-md-12 d-flex justify-content-end align-items-center">
-            <button class="btn btn-blue">Откликнуться</button>
+            <button class="btn btn-blue" data-bs-toggle="modal" data-bs-target="#reply" type="button">Откликнуться</button>
           </div>
         </div>
       </div>
@@ -394,6 +394,73 @@
 
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="flexCheckDefault">
+              Нажимая на кнопку “Отправить резюме”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой Конфиденциальности.
+            </label>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="reply" tabindex="-1" aria-labelledby="create-cv" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="vacancy-form">
+          <h2 class="form-title text-center">Откликнуться на вакансию</h2>
+          <p class="form-text">Откликаясь на эту вакансию, коротко расскажите о своем предыдущем опыте работы и зарплатных ожиданиях.</p>
+          <h4 class="form-subtitle">Расскажите о себе</h4>
+          <div class="form-row d-flex justify-content-between">
+            <div class="d-flex flex-column w-100">
+              <label for="">Имя</label>
+              <input type="text" placeholder="Введите ваше имя">
+            </div>
+            <div class="d-flex flex-column w-100">
+              <label for="">Фамилия</label>
+              <input type="text" placeholder="Введите вашу фамилию">
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <label for="">Адрес электронной почты</label>
+              <input type="email" class="single-input" placeholder="Введите ваш адрес электронной почты">
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <label for="">Телефон</label>
+              <input type="tel" placeholder="+7">
+            </div>
+          </div>
+          <h4 class="form-subtitle">Выберите регион</h4>
+          <div class="form-row">
+            <select class="form-select" aria-label="Поиск региона">
+              <option selected>Поиск региона</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+          <h4 class="form-subtitle">Выберите резюме для отправки</h4>
+          <div class="form-row">
+            <div class="input-group custom-file-button ">
+              <label class='file-label' for="inputGroupFile">.pdf, .doc, .docx</label>
+              <input type="file" class="form-control invisible" id="inputGroupFile" >
+              <button class="choose-file btn" onclick="document.getElementById('inputGroupFile').click()">Выбрать файл</button>
+            </div>
+
+          </div>
+          <p class="form-text">Нет резюме? Вы можете <a href="" data-bs-toggle="modal" data-bs-target="#create-cv" type="button">создать резюме здесь.</a></p>
+          <a href="" class="btn btn-blue">Отправить резюме</a>
+          <a href="" class="btn btn-gray">Заполнить краткую форму</a>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
               Нажимая на кнопку “Отправить резюме”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой Конфиденциальности.
             </label>

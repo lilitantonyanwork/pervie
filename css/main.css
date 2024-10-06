@@ -1197,3 +1197,21 @@ footer{
 .vacancy-info ul{
     padding: 0;
 }
+
+.modal-body .file-label{
+    border: 3px solid #F3F3F3;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 472px;
+    width: 100%;
+    border-radius: 10px!important;
+}
+
+.modal-body .custom-file-button{
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
