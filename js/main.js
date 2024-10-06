@@ -80,11 +80,15 @@ var swiper3 = new Swiper(".founders-list.swiper", {
 
 var myNav = document.getElementById("nav");
 
+
 window.onscroll = function() {
-    "use strict";
+    if (myNav !== null){
+
     if (document.body.scrollTop >= 280 || document.documentElement.scrollTop >= 280) {
         myNav.classList.add("scroll");
     } else {
         myNav.classList.remove("scroll");
+    }
+
     }
 };

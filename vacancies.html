@@ -11,16 +11,16 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body class="vacancy">
 <header>
   <nav  class="navbar scroll navbar-expand-lg navbar-light p-0">
-    <div class="container-fluid justify-content-between align-items-start">
+    <div class="container-fluid justify-content-between align-items-center">
       <a class="navbar-brand p-0 m-0" href="#"><img src="img/logo-red.svg" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav m-lg-auto my-lg-0  ms-auto" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav m-lg-auto my-lg-0  ms-auto d-none" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
             <a class="nav-link text-white p-0 text-uppercase" aria-current="page" href="#">О нас <i class="bi bi-arrow-right-short"></i></a>
           </li>
@@ -38,8 +38,8 @@
           </li>
         </ul>
 
-        <button class="btn btn-transparent bvi-btn"></button>
-        <a href="#" class="btn btn-red text-white" >все вакансии <span class="btn-arrow"></span> </a>
+        <button class="btn btn-transparent bvi-btn mt-0"></button>
+        <a href="#" class="btn btn-red text-white d-none" >все вакансии <span class="btn-arrow"></span> </a>
 
       </div>
     </div>
@@ -56,8 +56,8 @@
            <h1 class="page-title"> Работа в Движении Первых</h1>
          </div>
        </div>
-       <form class="row gy-2 gx-3 align-items-center">
-         <div class="col-md-6">
+       <form class="row gy-2 gx-3 align-items-end justify-content-between">
+         <div class="col-md-7">
            <input type="text" class="form-control"  placeholder="Введите название или описание вакансии">
            <select class="form-select" aria-label="Выбор из списка региона">
              <option selected>Выбор из списка региона</option>
@@ -67,7 +67,7 @@
            </select>
          </div>
 
-         <div class="col-md-4">
+         <div class="col-md-3">
            <label class="" >Сортировка вакансий</label>
            <select class="form-select" >
              <option selected>По дате (самые новые)</option>
@@ -77,7 +77,7 @@
            </select>
          </div>
 
-         <div class="col-auto">
+         <div class="col-md-2">
            <button type="submit" class="btn btn-red text-white">Искать</button>
          </div>
        </form>
@@ -85,24 +85,25 @@
    </div>
    <div class="vacancy-list">
      <div class="container-fluid">
-       <div class="row">
-         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+       <div class="row ">
+         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="justify-content-between d-flex align-items-center">
            <ol class="breadcrumb">
-             <li class="breadcrumb-item"><a href="#">Home</a></li>
-             <li class="breadcrumb-item active" aria-current="page">Library</li>
+             <li class="breadcrumb-item"><a href="#">Главная</a></li>
+             <li class="breadcrumb-item active" aria-current="page">Вакансии</li>
            </ol>
+           <p class="search-result ">Найдена 251 вакансия</p>
          </nav>
-         <div class="vacancies-list d-flex flex-wrap">
+         <div class="vacancies-list d-flex flex-wrap justify-content-between">
            <div class="vacancy-item">
              <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
              <p class="vacancy-company">Движение Первых</p>
              <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
+             <ul class="vacancy-more d-flex p-0">
+               <li>Полная занятость <i class="bi bi-dot"></i></li>
+               <li>Москва <i class="bi bi-dot"></i></li>
                <li>Опыт 3-6 лет</li>
              </ul>
-             <div class="vacancy-actions">
+             <div class="vacancy-actions d-flex align-items-center w-100">
                <a href="" class="btn btn-more">О вакансии</a>
                <a href="" class="btn btn-form">Откликнуться</a>
              </div>
@@ -113,12 +114,12 @@
              <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
              <p class="vacancy-company">Движение Первых</p>
              <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
+             <ul class="vacancy-more d-flex p-0">
+               <li>Полная занятость <i class="bi bi-dot"></i></li>
+               <li>Москва <i class="bi bi-dot"></i></li>
                <li>Опыт 3-6 лет</li>
              </ul>
-             <div class="vacancy-actions">
+             <div class="vacancy-actions d-flex align-items-center w-100">
                <a href="" class="btn btn-more">О вакансии</a>
                <a href="" class="btn btn-form">Откликнуться</a>
              </div>
@@ -129,12 +130,12 @@
              <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
              <p class="vacancy-company">Движение Первых</p>
              <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
+             <ul class="vacancy-more d-flex p-0">
+               <li>Полная занятость <i class="bi bi-dot"></i></li>
+               <li>Москва <i class="bi bi-dot"></i></li>
                <li>Опыт 3-6 лет</li>
              </ul>
-             <div class="vacancy-actions">
+             <div class="vacancy-actions d-flex align-items-center w-100">
                <a href="" class="btn btn-more">О вакансии</a>
                <a href="" class="btn btn-form">Откликнуться</a>
              </div>
@@ -145,81 +146,33 @@
              <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
              <p class="vacancy-company">Движение Первых</p>
              <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
+             <ul class="vacancy-more d-flex p-0">
+               <li>Полная занятость <i class="bi bi-dot"></i></li>
+               <li>Москва <i class="bi bi-dot"></i></li>
                <li>Опыт 3-6 лет</li>
              </ul>
-             <div class="vacancy-actions">
+             <div class="vacancy-actions d-flex align-items-center w-100">
                <a href="" class="btn btn-more">О вакансии</a>
                <a href="" class="btn btn-form">Откликнуться</a>
              </div>
              <div class="vacancy-date">Вчера</div>
 
            </div>
-           <div class="vacancy-item">
-             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
-             <p class="vacancy-company">Движение Первых</p>
-             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
-               <li>Опыт 3-6 лет</li>
-             </ul>
-             <div class="vacancy-actions">
-               <a href="" class="btn btn-more">О вакансии</a>
-               <a href="" class="btn btn-form">Откликнуться</a>
-             </div>
-             <div class="vacancy-date">Вчера</div>
-
-           </div>
-           <div class="vacancy-item">
-             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
-             <p class="vacancy-company">Движение Первых</p>
-             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
-               <li>Опыт 3-6 лет</li>
-             </ul>
-             <div class="vacancy-actions">
-               <a href="" class="btn btn-more">О вакансии</a>
-               <a href="" class="btn btn-form">Откликнуться</a>
-             </div>
-             <div class="vacancy-date">Вчера</div>
-
-           </div>
-           <div class="vacancy-item">
-             <h4 class="vacancy-title">Заместитель начальника отдела по сопровождению цифровых платформ</h4>
-             <p class="vacancy-company">Движение Первых</p>
-             <p class="vacancy-address"><span></span>Чкаловская, улица Земляной Вал, 50Ас2</p>
-             <ul class="vacancy-more">
-               <li>Полная занятость</li>
-               <li>Москва</li>
-               <li>Опыт 3-6 лет</li>
-             </ul>
-             <div class="vacancy-actions">
-               <a href="" class="btn btn-more">О вакансии</a>
-               <a href="" class="btn btn-form">Откликнуться</a>
-             </div>
-             <div class="vacancy-date">Вчера</div>
-
-           </div>
-           <nav aria-label="Page navigation example">
-             <ul class="pagination justify-content-center">
-               <li class="page-item disabled">
-                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-               </li>
-               <li class="page-item"><a class="page-link" href="#">1</a></li>
-               <li class="page-item"><a class="page-link" href="#">2</a></li>
-               <li class="page-item"><a class="page-link" href="#">3</a></li>
-               <li class="page-item">
-                 <a class="page-link" href="#">Next</a>
-               </li>
-             </ul>
-           </nav>
 
          </div>
+         <nav aria-label="Page navigation ">
+           <ul class="pagination justify-content-center align-items-center">
+             <li class="page-item disabled">
+               <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-chevron-left"></i></a>
+             </li>
+             <li class="page-item active"><a class="page-link" href="#">1</a></li>
+             <li class="page-item"><a class="page-link" href="#">2</a></li>
+             <li class="page-item"><a class="page-link" href="#">3</a></li>
+             <li class="page-item">
+               <a class="page-link" href="#"><i class="bi bi-chevron-right"></i></a>
+             </li>
+           </ul>
+         </nav>
        </div>
      </div>
    </div>
@@ -234,7 +187,7 @@
             <a href=""><img src="img/logo-footer.svg" alt="logo"></a>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 footer-col-2">
+        <div class="col-lg-2 col-md-6 footer-col-2">
           <h4 class="footer-title text-uppercase">телефон</h4>
           <p>Для звонков по России:
             <a href="tel:+7(800)-333-63-11">+7(800)-333-63-11</a></p>
@@ -249,29 +202,29 @@
           <h4 class="footer-title text-uppercase">адрес</h4>
           <p>109028, г. Москва, ул. Земляной Вал, д. 50А, стр. 2 (м. «Курская»)</p>
         </div>
-        <div class="col-lg-6 col-md-6 footer-col-3">
-          <form action="">
-            <h2>Не нашли подходящую вакансию?</h2>
-            <p>Направляйте своё резюме и мы предложим лучшее решение!</p>
+        <div class="col-lg-7 col-md-6 footer-col-3 p-0">
+          <form action="" class="vacancy-form">
+            <h2 class="form-title text-center">Не нашли подходящую вакансию?</h2>
+            <p class="form-text">Направляйте своё резюме и мы предложим лучшее решение!</p>
             <h4 class="form-subtitle">Расскажите о себе</h4>
             <div class="form-row d-flex">
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column w-100">
                 <label for="">Имя</label>
                 <input type="text" placeholder="Введите ваше имя">
               </div>
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column w-100">
                 <label for="">Фамилия</label>
                 <input type="text" placeholder="Введите вашу фамилию">
               </div>
             </div>
             <div class="form-row d-flex">
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column w-100">
                 <label for="">Адрес электронной почты</label>
-                <input type="email" placeholder="Введите ваш адрес электронной почты">
+                <input type="email" class="single-input" placeholder="Введите ваш адрес электронной почты">
               </div>
             </div>
             <div class="form-row d-flex">
-              <div class="d-flex flex-column">
+              <div class="d-flex flex-column w-100">
                 <label for="">Телефон</label>
                 <input type="tel" placeholder="+7">
               </div>
@@ -287,10 +240,14 @@
             </div>
             <h4 class="form-subtitle">Выберите резюме для отправки</h4>
             <div class="form-row">
-              <label for="file">Перетащите файлы сюда</label>
-              <input type="file" id="file">
+              <div class="input-group custom-file-button ">
+                <label class='file-label' for="inputGroupFile">Перетащите файлы сюда</label>
+                <input type="file" class="form-control invisible" id="inputGroupFile" >
+                <button class="choose-file btn" onclick="document.getElementById('inputGroupFile').click()">Выбрать файл</button>
+              </div>
+
             </div>
-            <p>Нет резюме? Вы можете <a href="">создать резюме здесь.</a></p>
+            <p class="form-text">Нет резюме? Вы можете <a href="">создать резюме здесь.</a></p>
             <a href="" class="btn btn-blue">Отправить резюме</a>
             <a href="" class="btn btn-gray">Заполнить краткую форму</a>
             <div class="form-check">
