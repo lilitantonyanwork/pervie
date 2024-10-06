@@ -104,7 +104,11 @@
         max-width: 77%;
     }
     .video-overlay{
-        padding-top: 68px;
+        height: 85%;
+        width: 54%;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .video-block{
         margin-bottom: 90px;
@@ -186,14 +190,7 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .video-overlay{
-        position: absolute;
-        width: 70%;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 6%;
-        padding-top: 0;
-    }
+
     .video-view{
         position: relative;
         height: 476px;
@@ -214,8 +211,14 @@
     .founder{
         overflow: hidden;
     }
+    .video-overlay{
+        height: 77%;
+    }
 }
 @media screen and (max-width: 1024px){
+    .video-overlay {
+        height: 71%;
+    }
     .footer-col-2 p{
         max-width: 100%;
     }
@@ -292,7 +295,9 @@
 @media screen and (max-width: 990px){
     .video-overlay {
         top: 4%;
+        height: 67%;
     }
+
     .vacancies-block h1{
         font-size: 40px;
         line-height: 35px;
@@ -414,8 +419,30 @@
     .pagination{
         margin-bottom: 30px;
     }
+    .features-text{
+        font-size: 35px ;
+        line-height: 35px;
+    }
+}
+@media screen and (max-width: 900px){
+    .video-overlay {
+        height: 62%;
+    }
+}
+@media screen and (max-width: 800px){
+    .video-overlay {
+        height: 54%;
+    }
 }
 @media screen and (max-width: 768px){
+    .features-text{
+        font-size: 30px ;
+        line-height: 30px;
+
+    }
+    .features-text br{
+        display: none;
+    }
     .swiper-button-next , .story-list  .swiper-button-next {
         right: 30%;
     }
@@ -495,7 +522,7 @@
         height: 300px;
     }
     .video-overlay {
-        top: 6%;
+        height: 85%;
     }
     footer .bvi-btn{
         margin-right: auto;
@@ -522,6 +549,16 @@
     }
     footer{
         padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 730px){
+    .video-overlay {
+        height: 78%;
+    }
+}
+@media screen and (max-width: 660px){
+    .video-overlay {
+        height: 73%;
     }
 }
 @media screen and (max-width: 600px){
@@ -609,15 +646,20 @@
     }
     .video{
         padding-top: 30px;
-    }
-    .video img {
-        max-width: 100%;
-        width: 100%;
+        margin-bottom: 40px;
     }
     .video-overlay{
-        width: 77%;
-        top: 6.5%;
+        width: 307px;
+        height: 200px;
+        top: 49%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
+    .video img {
+        width: 400px;
+        height: 300px;
+    }
+
     .values{
         margin-bottom: 30px;
     }
@@ -733,9 +775,7 @@
         padding: 20px;
         margin-bottom: 0;
     }
-    .video-block{
-        margin-bottom: 30px;
-    }
+
     .features-counter{
         padding-bottom: 20px;
         padding-top: 20px;
@@ -759,9 +799,17 @@
         line-height: 30px;
         height: 48px;
     }
+    .video img {
+        width: 320px;
+        height: 220px;
+    }
     .video-overlay{
-        width: 77%;
-        top: 5%;
+        width: 245px;
+        height: 153px;
+        top: 41%;
+    }
+    .video-block{
+        margin-bottom: 0;
     }
 
     .swiper-button-prev, .story-list .swiper-button-prev{
@@ -791,6 +839,9 @@
         width: 100%;
         max-width: unset;
         min-width: 100%;
+    }
+    .features-text{
+        padding-right: 0;
     }
 }
 
