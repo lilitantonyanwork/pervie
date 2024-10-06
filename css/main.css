@@ -195,12 +195,14 @@
     color: #000;
 }
 .video-view{
-    background: url('../img/video-bg.svg') no-repeat;
-    background-size: 100% 100%;
     max-width: 1229px;
     height: 711px;
     width: 100%;
     margin: 35px auto 0;
+}
+.video-bg{
+    position: absolute;
+    z-index: -1;
 }
 .video-block{
     margin-bottom: 279px;
@@ -253,7 +255,7 @@
 
 }
 .card-back {
-    background-color: #2980b9;
+    background-color:#3669C9;
     color: white;
     transform: rotateY(180deg);
 }
@@ -559,6 +561,7 @@
 }
 footer{
     background: #D6111F;
+    padding-bottom: 50px;
 }
 .footer-title{
     margin-top: 74px;
@@ -633,6 +636,7 @@ footer{
     font-family: Inter, sans-serif;
     text-transform: uppercase;
     padding-left: 82px;
+    margin-bottom: 0;
 }
 .socials{
     gap: 40px;
@@ -1230,4 +1234,11 @@ footer{
     border: 3px solid #F3F3F3;
     margin-top: 0;
     margin-bottom: 28px;
+}
+footer .bvi-btn{
+    background: url('../img/bvi-white.svg') no-repeat;
+    visibility: visible;
+    border: none;
+    margin: 0 64px 0 0;
+    height: 52px;
 }
