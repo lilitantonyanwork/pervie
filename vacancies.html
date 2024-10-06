@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/coreui.min.css">
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
@@ -247,7 +248,7 @@
               </div>
 
             </div>
-            <p class="form-text">Нет резюме? Вы можете <a href="">создать резюме здесь.</a></p>
+            <p class="form-text">Нет резюме? Вы можете <a href="" data-bs-toggle="modal" data-bs-target="#create-cv" type="button">создать резюме здесь.</a></p>
             <a href="" class="btn btn-blue">Отправить резюме</a>
             <a href="" class="btn btn-gray">Заполнить краткую форму</a>
             <div class="form-check">
@@ -286,8 +287,177 @@
     </div>
   </div>
 </footer>
+<div class="modal fade" id="create-cv" tabindex="-1" aria-labelledby="create-cv" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="vacancy-form">
+          <h2 class="form-title text-center">Создать свое
+            резюме</h2>
+          <p class="form-text">Все поля обязательны к заполнению. <br>
+            Вы можете сохранить резюме или отправить его сразу.</p>
+          <h4 class="form-subtitle">Все поля обязательны к заполнению.
+            Заполните информацию о себе</h4>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+
+              <input type="text" placeholder="Введите ваше имя">
+            </div>
+            <div class="d-flex flex-column w-100">
+
+              <input type="text" placeholder="Введите вашу фамилию">
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+
+              <input type="text" placeholder="Отчество">
+            </div>
+            <div class="d-flex flex-column w-100">
+              <input type="tel" placeholder="Контактный телефон">
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+
+              <input type="email" placeholder="Адрес электронной почты">
+            </div>
+            <div class="d-flex flex-column w-100">
+              <select class="form-select" aria-label="Регион">
+                <option selected>Регион</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <input type="text" class="single-input w-100" placeholder="Ссылки на социальные сети (профессиональные)">
+            </div>
+          </div>
+
+          <h4 class="form-subtitle">Расскажите о вашем опыте работы, целях поиска и образовании</h4>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <label for="">Опыт работы</label>
+              <input type="text" class="single-input" placeholder="Место работы">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Должность">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+
+            </div>
+            <div class="d-flex flex-column ">
+
+              <input type="text"  placeholder="Период работы">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Обязанности">
+
+            </div>
+            <div class="d-flex flex-column ">
+
+              <input type="text"  placeholder="Достижения">
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <label for="">Цель поиска работы</label>
+              <input type="text" class="single-input" placeholder="Кратко опишите ваши цели поиска работы">
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <label for="">Образование</label>
+              <input type="text" class="single-input" placeholder="Наименование учебного заведения">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Специальность ">
+
+            </div>
+            <div class="d-flex flex-column ">
+
+              <input type="text"  placeholder="Степень">
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Период обучения ">
+
+            </div>
+            <div class="d-flex flex-column ">
+
+            </div>
+          </div>
+          <h4 class="form-subtitle">Компетенции</h4>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Навыки ">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+
+            </div>
+            <div class="d-flex flex-column ">
+
+              <input type="text"  placeholder="Личные качества">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column w-100">
+              <input type="text" class="single-input" placeholder="Сертификаты и пройденные курсы">
+
+            </div>
+          </div>
+          <div class="form-row d-flex">
+            <div class="d-flex flex-column ">
+              <input type="text" placeholder="Название языка ">
+              <button class="add-btn"><i class="bi bi-plus-square"></i></button>
+
+            </div>
+            <div class="d-flex flex-column ">
+
+              <input type="text"  placeholder="Уровень владения">
+
+            </div>
+          </div>
+
+          <a href="" class="btn btn-gray">Сохранить файл</a>
+          <a href="" class="btn btn-blue">Отправить резюме</a>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="">
+            <label class="form-check-label" for="flexCheckDefault">
+              Нажимая на кнопку “Отправить резюме”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой Конфиденциальности.
+            </label>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
 
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/coreui.bundle.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
