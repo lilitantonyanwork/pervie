@@ -191,7 +191,7 @@
             </div>
             <p class="form-text">Нет резюме? Вы можете <a href="" data-bs-toggle="modal" data-bs-target="#create-cv" type="button">создать резюме здесь.</a></p>
             <a href="" class="btn btn-blue">Отправить резюме</a>
-            <a href="" class="btn btn-gray">Заполнить краткую форму</a>
+            <a href="" class="btn btn-gray" data-bs-toggle="modal" data-bs-target="#short-form" type="button">Заполнить краткую форму</a>
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
               <label class="form-check-label" for="flexCheckDefault">
@@ -449,7 +449,7 @@
           </div>
           <h4 class="form-subtitle">Выберите резюме для отправки</h4>
           <div class="form-row">
-            <div class="input-group custom-file-button ">
+            <div class="input-group custom-file-button w-100">
               <label class='file-label' for="inputGroupFile">.pdf, .doc, .docx</label>
               <input type="file" class="form-control invisible" id="inputGroupFile" >
               <button class="choose-file btn" onclick="document.getElementById('inputGroupFile').click()">Выбрать файл</button>
@@ -458,7 +458,7 @@
           </div>
           <p class="form-text">Нет резюме? Вы можете <a href="" data-bs-toggle="modal" data-bs-target="#create-cv" type="button">создать резюме здесь.</a></p>
           <a href="" class="btn btn-blue">Отправить резюме</a>
-          <a href="" class="btn btn-gray">Заполнить краткую форму</a>
+
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
@@ -471,7 +471,51 @@
     </div>
   </div>
 </div>
+<div class="modal fade" id="short-form" tabindex="-1" aria-labelledby="" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
 
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="" class="vacancy-form">
+          <h2 class="form-title">Не нашли подходящую вакансию?</h2>
+          <p class="form-text">Направляйте своё резюме и мы предложим лучшее решение!</p>
+          <h4 class="form-subtitle">Расскажите о себе</h4>
+          <div class="form-row d-flex justify-content-between">
+            <div class="d-flex flex-column w-100">
+
+              <input type="text" placeholder="Введите ваше имя">
+            </div>
+            <div class="d-flex flex-column w-100">
+
+              <input type="text" placeholder="Введите вашу фамилию">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="input-group custom-file-button w-100 mw-100">
+              <label class='file-label' for="inputGroupFile">Перетащите файлы сюда</label>
+              <input type="file" class="form-control invisible" id="inputGroupFile" >
+              <button class="choose-file btn" onclick="document.getElementById('inputGroupFile').click()">Выбрать файл</button>
+            </div>
+
+          </div>
+          <a href="" class="btn btn-blue">Отправить резюме</a>
+          <a href="" class="btn btn-gray">Заполнить полную форму резюме</a>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Нажимая на кнопку “Отправить резюме”, вы соглашаетесь на обработку персональных данных в соответствии с Политикой Конфиденциальности.
+            </label>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/swiper-bundle.min.js"></script>

@@ -1198,7 +1198,8 @@ footer{
     padding: 0;
 }
 
-.modal-body .file-label{
+
+#reply .modal-body .file-label{
     border: 3px solid #F3F3F3;
     height: 84px;
     display: flex;
@@ -1209,9 +1210,24 @@ footer{
     border-radius: 10px!important;
 }
 
-.modal-body .custom-file-button{
+#reply .modal-body .custom-file-button{
     padding: 0;
     border: none;
     display: flex;
     flex-wrap: nowrap;
+    width: 100%;
+    max-width: 100%;
+}
+#short-form .form-title{
+    font-size: 40px;
+    line-height: 48px;
+}
+#short-form .btn-blue{
+    margin-bottom: 18px;
+}
+#short-form .btn-gray{
+    background: #fff;
+    border: 3px solid #F3F3F3;
+    margin-top: 0;
+    margin-bottom: 28px;
 }
