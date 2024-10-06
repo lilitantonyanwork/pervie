@@ -50,7 +50,7 @@ var swiper2 = new Swiper(".story-list.swiper", {
             spaceBetween: 20
         },
         1440:{
-            slidesPerView: 4
+            slidesPerView: 3
         }
     }
 });

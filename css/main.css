@@ -335,7 +335,7 @@
 }
 .story{
     border-radius: 30px;
-
+    max-width: 515px;
     background: #FDFDFD;
     overflow: hidden;
     padding-bottom: 32px;

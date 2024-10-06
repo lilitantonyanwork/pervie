@@ -390,8 +390,68 @@
     .vacancy-info .btn-blue{
         margin-right: 0;
     }
+    .vacancy-form{
+        margin: 0 auto;
+        max-width: calc(100% - 40px);
+    }
+    .form-title{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .footer-top .form-text, .footer-top .form-text a, .form-text{
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .form-subtitle{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .vacancy-form label, .vacancy-form input, .vacancy-form select, .choose-file{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .vacancy-form .form-check-label{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .vacancy-form input, .vacancy-form select, .choose-file{
+        height: 48px;
+    }
+    .btn-blue, .btn-gray{
+        height: 48px;
+        font-size: 18px;
+    }
+    .modal-dialog-centered{
+        max-width: calc(100% - 40px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .modal-body .vacancy-form{
+        max-width: 100%;
+    }
+    #reply .vacancy-form .file-label{
+        height: 48px;
+    }
+    .modal-body .vacancy-form input, .modal-body .vacancy-form select{
+        max-width: 100%;
+    }
 }
 @media screen and (max-width: 600px){
+    .vacancy-form{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .form-row{
+        flex-wrap: wrap;
+    }
+    .custom-file-button{
+        text-align: center;
+    }
+
+    .vacancy-form input, .vacancy-form select, .choose-file{
+        max-width: 100%;
+    }
     .vacancy-title{
         font-size: 26px;
     }
@@ -408,6 +468,9 @@
     .single-info{
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .form-text{
+        flex-wrap: wrap;
     }
     .vacancy-info .single-info .btn-blue{
         max-width: 100%;
