@@ -562,6 +562,9 @@
     }
 }
 @media screen and (max-width: 600px){
+    .navbar{
+        position: relative!important;
+    }
     .vacancy-search .btn-red{
         width: 100%;
         max-width: 100%;
