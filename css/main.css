@@ -12,7 +12,6 @@
 }
 
 .navbar-nav{
-    padding-top: 48px;
     gap: 42px;
     padding-left: 200px;
 }
@@ -25,7 +24,6 @@
     width: 52px;
     height: 41px;
     margin-right: 23px;
-    margin-top: 20px;
     visibility: hidden;
 
 }
@@ -78,7 +76,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 17px;
     gap: 9px;
     font-family: "Inter V",sans-serif;
 }
